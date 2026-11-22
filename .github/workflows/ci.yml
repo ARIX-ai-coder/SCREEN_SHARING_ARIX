@@ -17,7 +17,7 @@ jobs:
       - name: Browser e2e (Chromium + simulated sender)
         run: |
           cd tests/e2e && npm install && npx playwright install --with-deps chromium
-          ./run_e2e.sh
+          bash ./run_e2e.sh 
 
   android:
     runs-on: ubuntu-latest
