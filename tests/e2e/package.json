@@ -1,0 +1,1 @@
+{ "name": "arix-e2e", "private": true, "version": "0.0.0", "dependencies": { "playwright": "^1.48.0" } }

@@ -1,0 +1,4 @@
+# HTTPS + WSS in front of the ARIX backend (Caddy obtains the certificate automatically)
+screen.example.com {
+    reverse_proxy 127.0.0.1:8000
+}
